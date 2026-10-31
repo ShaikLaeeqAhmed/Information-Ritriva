@@ -1,0 +1,101 @@
+ticket_id,text,category
+HW_01,Laptop screen turns black randomly and flickers when moved. The LCD display cable or backlight seems physically damaged.,Hardware
+HW_02,Battery drains from 100 percent to zero within 20 minutes. The laptop battery health report shows replacement is needed.,Hardware
+HW_03,CPU fan is making loud grinding noise and keyboard gets burning hot. Overheating causes thermal shutdown during work.,Hardware
+HW_04,External monitor is not detected through HDMI port. Tried multiple cables but the display port shows no signal.,Hardware
+HW_05,Power button does not respond even when charger adapter is plugged in. Motherboard charging LED remains unlit.,Hardware
+HW_06,Webcam stopped working and shows blank black screen in video calls. Camera hardware is not detected in device list.,Hardware
+HW_07,Mechanical keyboard keys are sticking and repeating keystrokes. Spacebar and enter key require physical replacement.,Hardware
+HW_08,Hard drive making clicking sounds and laptop takes 10 minutes to boot. S.M.A.R.T diagnostic shows disk bad sectors.,Hardware
+HW_09,USB ports on left side of laptop are loose and not recognizing flash drives. Port pins appear physically bent.,Hardware
+HW_10,Trackpad cursor freezes and stops responding to touch gestures. Physical mouse works but internal touchpad is dead.,Hardware
+HW_11,Headphone audio 3.5mm jack is loose and only left ear produces sound. Audio port has physical contact wear.,Hardware
+HW_12,Office laser printer paper tray jammed and feed roller is slipping. Feed mechanism requires cleaning and roller replacement.,Hardware
+HW_13,Docking station USB-C connector is damaged and not supplying power. Dual monitor pass-through is non functional.,Hardware
+HW_14,Desktop PC shuts down abruptly during heavy tasks due to power supply unit failure. Smells like burnt electronics.,Hardware
+HW_15,RAM memory stick failure causing blue screen memory management stop code. MemTest86 flagged faulty DDR4 module.,Hardware
+HW_16,Graphics card HDMI output shows horizontal green artifact lines on screen. GPU hardware chip appears degraded.,Hardware
+HW_17,Charger barrel pin is bent and laptop only charges when held at a specific angle. DC charging jack needs repair.,Hardware
+HW_18,Laptop screen hinge is cracked and plastic bezel is separating when opening lid. Structural casing needs repair.,Hardware
+HW_19,Bluetooth mouse laser optical sensor died and battery contacts are corroded. Mouse hardware needs replacement.,Hardware
+HW_20,Server rack secondary redundant power supply tripped and alarm buzzer ringing. PSU module needs replacement.,Hardware
+HW_21,Conference room audio speaker has torn cone diaphragm producing loud buzzing distortion. Hardware replacement needed.,Hardware
+HW_22,Document scanner auto-feeder pulling multiple sheets simultaneously and tearing paper. Mechanical pickup roller worn out.,Hardware
+HW_23,Projector cooling fan failed with warning light flashing red. Projector lamp shuts down to prevent heat damage.,Hardware
+HW_24,Desktop motherboard BIOS CMOS battery dead causing system clock to reset on every cold boot.,Hardware
+HW_25,External SSD drive enclosure dropped on floor and no longer powers on. Internal SATA connector is broken.,Hardware
+SW_01,Microsoft Teams application crashes immediately upon opening on Windows 11. Application event log shows crash error code 0xc0000005.,Software
+SW_02,Excel freezes and stops responding when running financial macro script. Spreadsheet becomes unresponsive during visual basic execution.,Software
+SW_03,Windows cumulative update is stuck at 75 percent for five hours. Update installation fails repeatedly with error 0x80070002.,Software
+SW_04,Python script throws ModuleNotFoundError for pandas after environment update. Package dependency conflict in virtual environment.,Software
+SW_05,Photoshop software license activation key shows expired despite valid annual renewal. Software client prompts for serial key.,Software
+SW_06,Google Chrome browser consuming 95 percent CPU memory and crashing active tabs. Browser process hangs on page rendering.,Software
+SW_07,PDF reader software cannot open encrypted document and displays runtime error. PDF application needs reinstallation.,Software
+SW_08,Slack desktop notifications not appearing on screen even though app permissions are enabled in Windows settings.,Software
+SW_09,Visual Studio Code editor takes two minutes to launch integrated terminal shell. Extension host process causing editor delay.,Software
+SW_10,Database GUI client times out when executing simple SQL select query. Application UI hangs waiting for query execution response.,Software
+SW_11,Outlook desktop client search index is corrupted and returns zero search results for recent emails. Index rebuild required.,Software
+SW_12,Antivirus definition update failed due to corrupted signature database file. Antivirus engine prompts to restart update service.,Software
+SW_13,Docker desktop engine fails to start and gets stuck on starting container runtime. Docker daemon service crashes on boot.,Software
+SW_14,Git version control pre-commit hook script fails with syntax error blocking all code commit operations.,Software
+SW_15,Audio sound driver crashed after automatic driver update showing yellow exclamation mark in device manager.,Software
+SW_16,Web browser URL address bar redirects all new search queries to an unauthorized search engine. Browser hijack extension issue.,Software
+SW_17,VirtualBox virtual machine fails to boot and drops into UEFI interactive command shell. Bootloader configuration corrupted.,Software
+SW_18,Node.js npm install fails with EPERM permission denied error when writing to global node modules folder.,Software
+SW_19,Zoom meeting desktop client screen sharing shows pure black screen to other meeting attendees. Video rendering bug.,Software
+SW_20,Cannot install company VPN client software due to missing Visual C++ redistributable runtime libraries on system.,Software
+SW_21,Payroll ERP accounting software crashes during monthly tax deduction calculation. Null pointer exception in payroll module.,Software
+SW_22,Operating system stuck in automatic startup repair loop after improper system shutdown. Need OS bootloader repair.,Software
+SW_23,AutoCAD software runs out of virtual application memory when rendering complex 3D assembly models.,Software
+SW_24,Calendar appointment invites not syncing between mobile app and desktop email client. Sync protocol error.,Software
+SW_25,Code editor autosave bug corrupted source code file with null byte characters. Text editor recovery failed.,Software
+NW_01,WiFi connection keeps disconnecting every five minutes on office laptop. Wireless adapter drops connection to access point.,Network
+NW_02,Cannot connect to corporate office VPN gateway from home broadband. VPN client handshake times out on remote gateway.,Network
+NW_03,Internet connection speed is extremely slow getting only 2 Mbps on high speed fiber link. Heavy network congestion suspected.,Network
+NW_04,Web pages fail to load showing DNS probe finished nxdomain error in browser. Local DNS resolver cannot resolve public domain names.,Network
+NW_05,Ethernet cable is plugged in but network status shows unidentified network no internet access. LAN adapter not getting IP.,Network
+NW_06,Default gateway router IP address is completely unreachable when running terminal ping test. Host unreachable error.,Network
+NW_07,High network packet loss of 30 percent and 500ms ping latency during video conferences. Network jitter on local link.,Network
+NW_08,Cannot access local NAS shared network drive on internal office subnet 192.168.1.0. Network path not found error.,Network
+NW_09,Office router DHCP server ran out of available dynamic IP address leases. New client devices cannot obtain network IP.,Network
+NW_10,Company perimeter firewall is blocking outbound HTTPS port 443 traffic to external cloud hosting servers.,Network
+NW_11,Office WiFi SSID network name disappeared from available wireless networks list on all employee laptops.,Network
+NW_12,SSH connection to remote Linux production server times out on port 22. Network routing path or security group unreachable.,Network
+NW_13,Network shared printer IP address changed dynamically after router reboot causing print jobs to fail over LAN.,Network
+NW_14,Traceroute network packet hops fail after third hop indicating internet service provider upstream routing outage.,Network
+NW_15,Static IP address configuration caused IP address conflict error with another desktop computer on local network.,Network
+NW_16,Corporate HTTP proxy server rejecting user authentication credentials during internet web browsing sessions.,Network
+NW_17,Mobile hotspot WiFi connects to laptop but operating system reports connected no internet access.,Network
+NW_18,Local area network switch port showing blinking amber LED indicating continuous physical Ethernet CRC errors.,Network
+NW_19,Incorrect subnet mask setting on workstation preventing network packet transmission to local file servers.,Network
+NW_20,Fiber optic backbone switch experienced intermittent packet drops causing micro-disconnects across all office floors.,Network
+NW_21,Network bandwidth saturated by background cloud backup job slowing down intranet company web portals.,Network
+NW_22,Cannot ping server across different network VLANs. Inter-VLAN routing is disabled on core layer 3 switch.,Network
+NW_23,Websocket client connection drops repeatedly every 30 seconds during real-time data streaming over corporate network.,Network
+NW_24,Git clone over SSH fails with connection reset by peer on internal corporate network repository.,Network
+NW_25,Wireless access point in hallway rebooting randomly during peak hours dropping all connected wireless clients.,Network
+SC_01,Received suspicious phishing email pretending to be company payroll asking to verify bank account credentials.,Security
+SC_02,Two-factor authentication push notification token not arriving on employee mobile phone during login verification.,Security
+SC_03,User account locked out after three consecutive failed password attempts on corporate Active Directory domain.,Security
+SC_04,Critical security alert detected unauthorized login attempt from an unrecognized external IP address in Eastern Europe.,Security
+SC_05,Antivirus software intercepted and quarantined Trojan horse malware hidden inside an email zip attachment.,Security
+SC_06,Need urgent password reset assistance for single sign-on corporate portal after forgetting domain password.,Security
+SC_07,Suspicious browser pop-up window falsely claiming computer is infected with spyware and demanding phone call.,Security
+SC_08,Employee received fraudulent message pretending to be company executive requesting urgent purchase of gift cards.,Security
+SC_09,Browser displaying security warning stating website connection is not private due to an invalid or expired SSL certificate.,Security
+SC_10,Endpoint protection data loss prevention policy blocked encrypted USB flash drive from mounting on laptop.,Security
+SC_11,Temporary API access security token expired and client application cannot refresh OAuth credentials.,Security
+SC_12,Employee RFID security access card reader not unlocking door at entrance of high-security server room.,Security
+SC_13,Staff member failed internal cybersecurity phishing simulation drill by clicking on deceptive email hyperlink.,Security
+SC_14,Ransomware alert raised after automated file integrity monitor detected rapid file extension renames in shared directory.,Security
+SC_15,Administrator access rights and sudo privileges revoked following quarterly security audit compliance review.,Security
+SC_16,BitLocker drive encryption recovery key prompt appearing unexpectedly on laptop startup asking for 48-digit key.,Security
+SC_17,Massive spam email flood hitting corporate marketing inbox with hundreds of spoofed sender addresses.,Security
+SC_18,Unauthorized foreign SSH public key discovered appended to server root authorized_keys file during security scan.,Security
+SC_19,Vulnerability security scanner identified unpatched critical remote code execution flaw in Apache web server.,Security
+SC_20,Network intrusion detection system detected suspicious outbound traffic beaconing to known malicious command and control domain.,Security
+SC_21,User cannot generate new SSH key pair due to restricted cryptographic file system permissions on workstation.,Security
+SC_22,Compromised user email account sending automated spam messages to all internal and external address book contacts.,Security
+SC_23,Expired SSL TLS security certificate on internal employee portal throwing browser security warning screens.,Security
+SC_24,Multi-factor authenticator app needs MFA registration reset after employee upgraded to a new mobile phone device.,Security
+SC_25,Security log indicates repeated automated brute-force password guessing attempts against perimeter FTP server.,Security
